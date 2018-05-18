@@ -13,7 +13,7 @@ A quick and dirty tool to spew logs for benchmarking purposes. Can operate in se
   Options:
 
     -V, --version             output the version number
-    -n, --number <size>       Number of outputs to perform (default 10 )
+    -n, --number <size>       Number of outputs to perform (default 10)
     -l, --length <size>       Bytes to log per output (default 64 bytes)
     -d, --dated               Include date per output (default 0)
     -c, --counter             Include a consistently-spaced counter to each output (default 1)

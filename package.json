@@ -8,14 +8,15 @@
     "web": "node ./bin/start -w"
   },
   "engines": {
-    "node": ">=9.0.0"
+    "node": ">=10.0.0"
   },
   "dependencies": {
-    "body-parser": "^1.18.2",
-    "commander": "^2.12.2",
+    "body-parser": "^1.18.3",
+    "commander": "^2.19.0",
     "debug": "^2.6.9",
-    "express": "^4.16.2",
-    "getlorem": "^1.0.1"
+    "express": "^4.16.3",
+    "getlorem": "^1.0.1",
+    "pm2": "^2.10.4"
   },
   "devDependencies": {
     "babel-eslint": "^7.2.3",
